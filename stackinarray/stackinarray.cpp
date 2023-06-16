@@ -56,6 +56,11 @@ public:
 };
 
 int main() {
+	StackArray s;
+	char ch;
+	while (true) {
+
+	}
 
 }
 
