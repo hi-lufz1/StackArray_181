@@ -41,7 +41,7 @@ public:
 		return(top = -1);
 
 	}
-	void disolay() {
+	void display() {
 		if (empty()) {
 			cout << "\n stack is empty" << endl;
 
@@ -82,6 +82,9 @@ int main() {
 		}
 		s.pop();
 		break;
+		case'3':
+			s.display();
+			break;
 		}
 
 	}
