@@ -47,7 +47,7 @@ public:
 
 		}
 		else {
-			for (int tmp = 0; tmp <= top; tmp++) {
+			for (int tmp = top; tmp >= top; tmp--) {
 				cout << stack_array[tmp]<<endl;
 			}
 		}
@@ -59,6 +59,13 @@ int main() {
 	StackArray s;
 	char ch;
 	while (true) {
+		cout << endl;
+		cout << "\n***Stack Menu***\n";
+		cout << "1. Push\n";
+		cout << "\n***Stack Menu***\n";
+		cout << "\n***Stack Menu***\n";
+		cout << "\n***Stack Menu***\n";
+		cout << "\n***Stack Menu***\n";
 
 	}
 
