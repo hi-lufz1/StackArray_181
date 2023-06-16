@@ -15,17 +15,21 @@ public:
 
 	}
 
-	int push(int element) {
+	void push() {
+		int element;
+		cout << "\nEnter an Element: ";
+		cin >> element;
+
 		if (top == 4) {//step 1
 			cout << "Number of data exceds the limit" << endl;
 		}
 
 		top++;
-		stack_array[top] + element;//step 3
+		stack_array[top] = element;//step 3
 		cout << endl;
 		cout << element << " ditambahkan(pushed)" << endl;
 
-		return element;
+		return;
 
 	}
 	void pop() {
@@ -38,7 +42,7 @@ public:
 	}
 	//method for check if data is empty
 	bool empty() {
-		return(top = -1);
+		return(top == -1);
 
 	}
 	void display() {
@@ -69,10 +73,7 @@ int main() {
 		cin >> ch;
 		switch (ch) {
 		case '1': {
-			int element;
-			cout << "\nEnter an Element: ";
-			cin >> element;
-			s.push(element);
+			s.push();
 			break;
 		}
 		case'2':
