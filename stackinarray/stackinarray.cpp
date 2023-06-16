@@ -10,12 +10,18 @@ private:
 
 public:
 	//construktor
-	stack_array() {
+	StackArray(){
 		top = -1;
 
 	}
 
-	int push element()
+	int push(int element) {
+		if (top == 4) {//step 3
+			cout << "Number of data exceds the limit" << endl;
+		}
+
+		top ++
+	}
 
 };
 
