@@ -16,12 +16,18 @@ public:
 	}
 
 	int push(int element) {
-		if (top == 4) {//step 3
+		if (top == 4) {//step 1
 			cout << "Number of data exceds the limit" << endl;
 		}
 
-		top ++
-	}
+		top++;
+		stack_array[top] + element;//step 3
+		cout << endl;
+		cout << element << "ditambahkan(pushed)" << endl;
 
+		return element;
+
+	}
+	void pop
 };
 
