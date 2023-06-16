@@ -51,7 +51,7 @@ public:
 
 		}
 		else {
-			for (int tmp = top; tmp >= top; tmp--) {
+			for (int tmp = top; tmp >=0; tmp--) {
 				cout << stack_array[tmp]<<endl;
 			}
 		}
